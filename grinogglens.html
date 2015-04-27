@@ -79,6 +79,12 @@
                 EKKI setja útlitsstíla á þá (t.d. border, því þá riðlast uppbyggingin). 
                 Þó má gera undantekningu á því, t. d. á meðan hönnun vefsins stendur yfir.            
             */ 
+
+.main {
+    padding: 2em;
+    color: black;
+}
+
 </style>
 <style>
 
@@ -159,7 +165,42 @@
     }
 
 }
+.slide {
+    padding-left: 5em;
+    width: 500px;
+    height: 400px;
+        
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-image: url("img/243257-funny-jokes-and-quotes.jpg");}
+    20%  {background-image: url("img/asdasdasd.jpg");}
+    40%  {background-image: url("img/funny-black-racist-pictures-JSqH.jpg");}
+    60%  {background-image: url("img/lefunny.net-funny-jokes-quotes-animals-pictures-Favim.com-585310.jpg");}
+    80%  {background-image: url("img/bad_luck_posters_and_funny_stuff-s500x400-99479-580.jpg");}
+    100% {background-image: url("img/Valentine-Dumpster-500x400.jpg");}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-image: url("img/243257-funny-jokes-and-quotes.jpg");}
+    20%  {background-image: url("img/asdasdasd.jpg");}
+    40%  {background-image: url("img/funny-black-racist-pictures-JSqH.jpg");}
+    60%  {background-image: url("img/lefunny.net-funny-jokes-quotes-animals-pictures-Favim.com-585310.jpg");}
+    80%  {background-image: url("img/bad_luck_posters_and_funny_stuff-s500x400-99479-580.jpg");}
+    100% {background-image: url("img/Valentine-Dumpster-500x400.jpg");}
+}
 </style>
+
 <body>
 
 
@@ -185,6 +226,71 @@
         </div>
     </div>
 </div>
+
+<div class="main">
+
+    <!-- row 1 -->
+        <header class="pure-g">
+            <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-10-24">
+                <a href="index.html"><img src="" width="90%" class=""></a>
+            </div>
+            <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-14-24">
+                <img src="" width="90%" class="">
+            </div>
+        </header>     
+        <!-- row 2 -->
+        <section class="pure-g">
+            <article class="pure-u-1 pure-u-md-1 pure-u-lg-16-24">
+                <!-- nested row 1-->
+                <section class="pure-g">
+                    <div class="pure-u-1 pure-sm-12-24 pure-u-md-12-24 pure-u-lg-12-24">
+                        <h1>Grín og glens</h1>
+                        <div class = "slide"> 
+                        </div>
+                        
+                    </div>
+                        <div class="pure-u-1 pure-sm-12-24 pure-u-md-12-24 pure-u-lg-12-24">
+                        
+                    </div>
+                </section>
+                <!-- nested row 2-->
+                <section class="pure-g">
+                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
+                        <h4><span class="glyphicon glyphicon-pushpin"></span> </h4>
+                        <p></p>
+                       
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
+                        <h4><span class="glyphicon glyphicon-ok"></span> </h4>
+                        <p>  </p>
+                       
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
+                        <h4><span class="glyphicon glyphicon-heart"></span> </h4>
+                        <p> </p>
+                        
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
+                        <h4><span class="glyphicon glyphicon-cutlery"></span> </h4>
+                        <p> </p>
+                        
+                    </div>
+                </section><!-- end nested row -->
+            </article>    
+            <aside class="pure-u-1 pure-u-md-1 pure-u-lg-8-24">
+
+              
+  
+            </aside>
+        </section><!-- end row 2 -->
+        <!-- row 3 -->
+        <footer class="pure-u-1">
+            <p></p>
+        </footer>
+        <!-- javascript -->
+        <script src=""></script>
+</div>
+
 
 
 <script>
@@ -228,80 +334,5 @@ window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu);
 })(this, this.document);
 
 </script>
-
-
-
-<style>
-.main {
-    padding: 2em;
-    color: black;
-}
-</style>
-
-<div class="main">
-
-    <!-- row 1 -->
-        <header class="pure-g">
-            <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-10-24">
-                <a href="index.html"><img src="" width="90%" class=""></a>
-            </div>
-            <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-14-24">
-                <img src="" width="90%" class="">
-            </div>
-        </header>     
-        <!-- row 2 -->
-        <section class="pure-g">
-            <article class="pure-u-1 pure-u-md-1 pure-u-lg-16-24">
-                <!-- nested row 1-->
-                <section class="pure-g">
-                    <div class="pure-u-1 pure-sm-17-24 pure-u-md-15-24 pure-u-lg-15-24">
-                        <h1>Grín og glens</h1>
-                        <p>Hérna kemur svo bara einhverjar flipp myndir og brandarar og svoleiss stuff á þessa síðu ætlum bara að leika okkur á henni.</p>
-                        <p></p>
-                    </div>
-                    <div class="pure-u-1 pure-sm-7-24 pure-u-md-9-24 pure-u-lg-9-24">
-                        <img src="" width="90%">
-                    </div>
-                </section>
-                <!-- nested row 2-->
-                <section class="pure-g">
-                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
-                        <h4><span class="glyphicon glyphicon-pushpin"></span> </h4>
-                        <p></p>
-                       
-                    </div>
-                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
-                        <h4><span class="glyphicon glyphicon-ok"></span> </h4>
-                        <p>  </p>
-                       
-                    </div>
-                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
-                        <h4><span class="glyphicon glyphicon-heart"></span> </h4>
-                        <p> </p>
-                        
-                    </div>
-                    <div class="pure-u-1 pure-u-sm-12-24 pure-u-md-12-24 pure-u-lg-6-24">
-                        <h4><span class="glyphicon glyphicon-cutlery"></span> </h4>
-                        <p> </p>
-                        
-                    </div>
-                </section><!-- end nested row -->
-            </article>    
-            <aside class="pure-u-1 pure-u-md-1 pure-u-lg-8-24">
-
-              
-  
-            </aside>
-        </section><!-- end row 2 -->
-        <!-- row 3 -->
-        <footer class="pure-u-1">
-            <p></p>
-        </footer>
-        <!-- javascript -->
-        <script src=""></script>
-</div>
-
-
-
 </body>
 </html>
