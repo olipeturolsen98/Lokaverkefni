@@ -149,3 +149,44 @@
     padding: 2em;
     color: black;
 }
+.slide {
+    padding-left: 5em;
+    width: 500px;
+    height: 400px;
+      -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-image: url("img/243257-funny-jokes-and-quotes.jpg");}
+    20%  {background-image: url("img/asdasdasd.jpg");}
+    40%  {background-image: url("img/funny-black-racist-pictures-JSqH.jpg");}
+    60%  {background-image: url("img/lefunny.net-funny-jokes-quotes-animals-pictures-Favim.com-585310.jpg");}
+    80%  {background-image: url("img/bad_luck_posters_and_funny_stuff-s500x400-99479-580.jpg");}
+    100% {background-image: url("img/Valentine-Dumpster-500x400.jpg");}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-image: url("img/243257-funny-jokes-and-quotes.jpg");}
+    20%  {background-image: url("img/asdasdasd.jpg");}
+    40%  {background-image: url("img/funny-black-racist-pictures-JSqH.jpg");}
+    60%  {background-image: url("img/lefunny.net-funny-jokes-quotes-animals-pictures-Favim.com-585310.jpg");}
+    80%  {background-image: url("img/bad_luck_posters_and_funny_stuff-s500x400-99479-580.jpg");}
+    100% {background-image: url("img/Valentine-Dumpster-500x400.jpg");}
+}
+figure
+{
+    margin: 0;
+}
+figure img {
+    width: 100%;
+    height: auto;
+}
